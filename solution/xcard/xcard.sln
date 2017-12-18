@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-core", "01-core", "{98A1895C-0E98-4299-9872-B89EC5BCA777}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-domain", "01-domain", "{32223BD1-F901-4165-8519-3948A9090331}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xcard.core.domain.contracts", "xcard.core.domain.contracts\xcard.core.domain.contracts.csproj", "{08940E17-D60E-4F76-9273-72F47289B72E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xcard.core.domain.concretes", "xcard.core.domain.concretes\xcard.core.domain.concretes.csproj", "{BA6868EB-217C-444B-AFAC-DBCA682601E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08940E17-D60E-4F76-9273-72F47289B72E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08940E17-D60E-4F76-9273-72F47289B72E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08940E17-D60E-4F76-9273-72F47289B72E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08940E17-D60E-4F76-9273-72F47289B72E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA6868EB-217C-444B-AFAC-DBCA682601E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA6868EB-217C-444B-AFAC-DBCA682601E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA6868EB-217C-444B-AFAC-DBCA682601E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA6868EB-217C-444B-AFAC-DBCA682601E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{32223BD1-F901-4165-8519-3948A9090331} = {98A1895C-0E98-4299-9872-B89EC5BCA777}
+		{08940E17-D60E-4F76-9273-72F47289B72E} = {32223BD1-F901-4165-8519-3948A9090331}
+		{BA6868EB-217C-444B-AFAC-DBCA682601E6} = {32223BD1-F901-4165-8519-3948A9090331}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9E65705-AC24-42A0-B2B6-3A58AEF10DB2}
+	EndGlobalSection
+EndGlobal
