@@ -455,5 +455,6 @@ namespace reexjungle.xcal.core.domain.contracts.models.values
         /// <returns>A <see cref="T:System.String"/> containing a fully qualified type name.</returns>
         /// <filterpriority>2</filterpriority>
         public override string ToString() => $"{FULLYEAR:D4}{MONTH:D2}{MDAY:D2}";
+
     }
 }
